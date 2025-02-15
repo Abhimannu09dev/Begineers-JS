@@ -1,6 +1,8 @@
 let calculate = document.querySelector("#Calculate");
 let reset = document.querySelector("#Reset");
 let todayTips = 0;
+
+// Adding event listener to calculate part
 calculate.addEventListener("click", (event) => {
     event.preventDefault(); // Prevent form submission
 
@@ -14,6 +16,7 @@ calculate.addEventListener("click", (event) => {
         let totalAmount = amount + totalTip;
         todayTips += totalTip;
 
+        //dynamic change in div of overall Tips class
         document.querySelector(".overallTips").innerHTML = `
             <p> Total Tip: $${totalTip.toFixed(2)}</p>
             <p> Total Bill Amount: $${totalAmount.toFixed(2)}</p>
@@ -26,6 +29,7 @@ calculate.addEventListener("click", (event) => {
     }
 });
 
+//Adding Event listener in Reset
 reset.addEventListener("click", (event) => {
     event.preventDefault(); // Prevent form submission
 
@@ -33,6 +37,7 @@ reset.addEventListener("click", (event) => {
     document.querySelector("input[placeholder='Enter tip percentage']").value = "";
     document.querySelector(".overallTips").innerHTML = ""; // Clear results
 });
+
 
 reset.addEventListener("dblclick", () => {
     todayTips= 0;
