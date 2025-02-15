@@ -32,7 +32,7 @@ A simple Tip Counter application built with **HTML**, **CSS**, and **JavaScript*
    git clone https://github.com/yourusername/tip-counter.git
    
 ## Usage
-1. **Open the index.html file in your browser.
-2. **Enter the bill amount and tip percentage.
-3. **Click the "Calculate" button to see the total tip and the total bill amount.
-4. **Track the total tips for the day and reset the results when needed.
+1. Open the *index.html* file in your browser.
+2. Enter the bill amount and tip percentage.
+3. Click the **"Calculate"** button to see the total tip and the total bill amount.
+4. Track the total tips for the day and reset the results when needed.
