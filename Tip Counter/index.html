@@ -9,20 +9,32 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-    <h1>Tip Counter</h1>
-    <div class="tip-container">
-        <form class="form">
-            <div class="input">
-                <label for="bill amount">Bill Amount</label>
-                <input type="number" placeholder="Enter bill amount" required>
-                <label for="tip percentage">Tip percentage</label>
-                <input type="number" placeholder="Enter tip percentage" required>
-            </div>
-            <div class="options">
-                <button type="Calculate">Calculate</button>
-                <button type="reset">Reset</button>
-            </div>
-        </form>
+    <div class="container">
+        <div class="tip-container">
+            <h1 style="padding: 5px;">Tip Counter</h1>
+            <form class="form">
+                <div class="input">
+                    <label for="bill">Bill Amount</label>
+                    <input name="bill" id="bill" type="number" placeholder="Enter bill amount" required>
+                    <label for="tip">Tip percentage</label>
+                    <input name="tipPercent" id="tipPercent" type="number" placeholder="Enter tip percentage" required>
+                </div>
+                <div class="options">
+                    <button id="Calculate">Calculate</button>
+                    <button id="Reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="totalTip">
+            <h1>Total Tip</h1>
+            <div class="overallTips"></div>
+        </div>
+
+        <div class="totalTip">
+            <h1>Todays Tips</h1>
+            <div id="todayTips"></div>
+        </div>
     </div>
 
     <script src="script.js"></script>
