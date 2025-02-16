@@ -29,7 +29,7 @@ A simple Tip Counter application built with **HTML**, **CSS**, and **JavaScript*
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/tip-counter.git
+   git clone https://github.com/Abhimannu09dev/Begineers-JS/tip-counter.git
    
 ## Usage
 1. Open the *index.html* file in your browser.
