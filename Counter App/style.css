@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#increase{
+    background-color: aqua;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#decrease{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#reset{
+    background-color: rgb(67, 186, 67);
+    border-radius: 10px;
+    font-size: 30px;
+}
+h1{
+    margin-bottom: 0px;
+}
+p{
+    font-size: large;
+}
