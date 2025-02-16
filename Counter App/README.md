@@ -14,7 +14,7 @@ A lightweight and interactive Counter App built using HTML, CSS, and JavaScript.
 
 ## 📂 File Structure
 
-📂 counter-app
+📂 counter-app  
  ├── 📄 index.html   # Main HTML file  
  ├── 📄 style.css    # CSS for styling  
  ├── 📄 script.js    # JavaScript for counter functionality  
