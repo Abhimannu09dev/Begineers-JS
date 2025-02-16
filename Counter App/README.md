@@ -24,7 +24,7 @@ A lightweight and interactive Counter App built using HTML, CSS, and JavaScript.
 ## 🔧 Installation & Usage
 ### Clone the repository:
 ```bash 
-git clone https://github.com/your-username/counter-app.git
+git clone https://github.com/Abhimannu09dev/Begineers-JS/counter-app.git
 ```
 Open index.html in a browser  
 Simply double-click the file or use a live server extension in VS Code.  
