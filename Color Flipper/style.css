@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.colors{
+    border: 2px solid Black;
+    width: 2vh;
+    height: 2vh ;
+}
+button{
+    width: 2vh;
+    height: 2vh ;
+}
+#colorPalet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    width: 20%;
+    padding: 3px;
+    gap: 5px;
+}
+#Apply{
+    width: 6vh;
+    height: 2.5vh;
+}
