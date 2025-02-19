@@ -30,7 +30,7 @@ apply.addEventListener("click", () => {
 //Changing backgroud color to red
 red.addEventListener("click", () => {
     document.querySelector("body").style.backgroundColor = "red";
-    document.querySelector("h1").style.color = "yellow";
+    document.querySelector("body").style.color = "yellow";
 })
 
 //Changing backgroud color to orange
@@ -41,13 +41,13 @@ orange.addEventListener("click", () => {
 //Changing backgroud color to black
 black.addEventListener("click", () => {
     document.querySelector("body").style.backgroundColor = "black";
-    document.querySelector("h1").style.color = "white";
+    document.querySelector("body").style.color = "white";
 })
 
 //Changing backgroud color to blue
 blue.addEventListener("click", () => {
     document.querySelector("body").style.backgroundColor = "blue";
-    document.querySelector("h1").style.color = "white";
+    document.querySelector("body").style.color = "white";
     //Adding button color
     buttons.forEach(button => {
         button.style.borderColor = "white";
@@ -57,5 +57,5 @@ blue.addEventListener("click", () => {
 //Changing backgroud color to yellow
 yellow.addEventListener("click", () => {
     document.querySelector("body").style.backgroundColor = "yellow";
-    document.querySelector("h1").style.color = "red";
+    document.querySelector("body").style.color = "red";
 })
