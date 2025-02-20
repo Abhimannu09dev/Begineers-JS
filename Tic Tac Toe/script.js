@@ -1,6 +1,8 @@
-let move = "O";
+let move = "O"; // Track the current move
 const boxes = document.querySelectorAll(".digits");
 let reset = document.querySelector("#Reset")
+
+//Assingning winning Pattern in the array
 const winningPattern = [
     [0, 1, 2],
     [0, 3, 6],
@@ -12,6 +14,7 @@ const winningPattern = [
     [6, 7, 8],
 ];
 
+// Loop through each tic-tac-toe cell and add a click event listener
 boxes.forEach(step => {
     step.addEventListener("click", () => {
         if (step.innerText === "") {
@@ -22,12 +25,14 @@ boxes.forEach(step => {
     })
 })
 
+// Created an arrow function to check the winner
 const checkWinner = () => {
     for (let pattern of winningPattern) {
         let firstDigit = boxes[pattern[0]].innerText;
         let secondDigit = boxes[pattern[1]].innerText;
         let thirdDigit = boxes[pattern[2]].innerText;
 
+        // Check if all three cells in the winning pattern are the same and not empty
         if (firstDigit !== "" && firstDigit === secondDigit && secondDigit === thirdDigit) {
             // Show winner message
             document.querySelector("#message").innerHTML = `Congratulations! ${firstDigit} is the winner!`;
@@ -42,6 +47,7 @@ const checkWinner = () => {
     }
 };
 
+//Creation of reset addEventListener
 reset.addEventListener("click", () => {
     if (confirm("Are you sure you want to reset??") == true) {
         boxes.forEach(digits => {
