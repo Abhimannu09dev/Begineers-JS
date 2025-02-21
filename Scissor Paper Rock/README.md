@@ -43,7 +43,7 @@ Click [here](#) to play the game! *(Add your GitHub Pages or live demo link here
 ## 📥 Installation & Usage
 1. **Clone this repository**
    ```sh
-   git clone https://github.com/yourusername/Scissors-Paper-Rock-Game.git
+   git clone https://github.com/Abhimannu09dev/Beginners-JS/Scissors-Paper-Rock-Game.git
    ```
 
 2. **Navigate to the project folder**
