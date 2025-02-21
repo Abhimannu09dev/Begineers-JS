@@ -7,33 +7,35 @@
     <title>Scissor Paper Rock</title>
 </head>
 <link rel="stylesheet" href="style.css">
+
 <body>
     <h1>Scissor Paper Rock</h1>
     <p>Your Choice:</p>
     <div class="board">
-        <button class="options">
+        <button class="moves" id="scissors">
             <img src="./images/scissors.png" alt="scissors">
         </button>
-        <button class="options">
+        <button class="moves" id="rock">
             <img src="./images/rock.png" alt="rock">
         </button>
-        <button class="options">
+        <button class="moves" id="paper">
             <img src="./images/paper.png" alt="paper">
         </button>
     </div>
 
     <div class="Computerboard">
-        <button class="options">
+        <button class="moves">
             <img src="./images/scissors.png" alt="scissors">
         </button>
-        <button class="options">
+        <button class="moves">
             <img src="./images/rock.png" alt="rock">
         </button>
-        <button class="options">
+        <button class="moves">
             <img src="./images/paper.png" alt="paper">
         </button>
     </div>
     <div id="score"></div>
+    <div id="scoreBoard"></div>
     <button id="Reset">Reset</button>
     <script src="script.js"></script>
 </body>
