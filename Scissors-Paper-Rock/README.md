@@ -2,9 +2,6 @@
 
 A simple **Scissors, Paper, Rock** game built with **HTML, CSS, and JavaScript**. The user plays against the computer, and the game keeps track of scores.
 
-## 🖥️ Live Demo
-Click [here](#) to play the game! *(Add your GitHub Pages or live demo link here)*
-
 ---
 
 ## 📌 Features
